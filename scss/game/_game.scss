@@ -1,0 +1,28 @@
+.conteiner{
+    padding: 0px;
+    margin: auto;
+    
+    width: 300px;
+    height: 250px;
+    background-color: rgb(217, 228, 197);
+    border: 10px dashed rgb(153, 236, 160);
+}
+
+#player{
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.pointer{
+    background-color: rgb(23, 32, 27);
+    height: 50px;
+    width: 300px;
+    color: white;
+    border-bottom: 0px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+    transition: all 0.4s;
+}

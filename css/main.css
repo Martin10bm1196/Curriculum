@@ -1,0 +1,711 @@
+.header {
+  position: relative;
+  background-image: url("../img/headerDesktop.jpg");
+  background-repeat: no-repeat;
+}
+
+.img_yo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 120px;
+  top: 450.38px;
+  border-radius: 300px;
+  background-image: url("../img/yo.jpg");
+}
+
+.python__img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 1200.38px;
+}
+
+.sql__img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 1200.38px;
+}
+
+.java__img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 1200.38px;
+}
+
+.css3__img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 1200.38px;
+}
+
+.html5__img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.js__img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 1200.38px;
+}
+
+.node__img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 1200.38px;
+}
+
+.net__img {
+  position: relative;
+  top: 1200.38px;
+}
+
+.c_sharp__img {
+  position: relative;
+  top: 1200.38px;
+}
+
+#contenedor {
+  width: 16%;
+  height: 20%;
+}
+
+.title {
+  color: #CECECE;
+  padding-left: 20px;
+  text-shadow: 3px 3px 3px #aa8456;
+}
+
+.title__name {
+  padding-top: 20px;
+  font-size: 45px;
+}
+
+.title__student {
+  font-size: 35px;
+  padding-left: 40px;
+}
+
+.title__abilities {
+  font-size: 35px;
+  color: black;
+  text-shadow: 3px 3px 3px #524949;
+  background-color: #F8F8F8;
+}
+
+.title__abilities--game {
+  color: black;
+  left: 60px;
+  font-size: 30px;
+}
+
+.info {
+  position: absolute;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 34px;
+  left: 390px;
+  top: 550.3px;
+}
+
+.info__name {
+  width: 500px;
+  height: 100.24px;
+  font-size: 40px;
+}
+
+.info__paragraph {
+  width: 500px;
+  height: 203.24px;
+  padding-left: 20px;
+  font-size: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+}
+
+.copyR {
+  width: 99%;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: rgba(69, 97, 151, 0.39);
+}
+
+.grid_container {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  -webkit-box-shadow: -1px 1px 7px 0px black;
+          box-shadow: -1px 1px 7px 0px black;
+  border-radius: 6px;
+}
+
+.grid_container .grid_container {
+  grid-template: 'img ' auto 'date '    auto 'leng'    auto 'game'    auto 'footer ' 60px/ 100%;
+}
+
+.img {
+  grid-area: img;
+  height: 25%;
+}
+
+.date {
+  grid-area: date;
+  height: 600px;
+  margin: 5%;
+  background: #F8F8F8;
+}
+
+.leng {
+  grid-area: leng;
+  height: 400px;
+  margin: 80px;
+  background: #F8F8F8;
+}
+
+.game {
+  grid-area: game;
+  height: 400px;
+  margin: 80px;
+  background: #F8F8F8;
+}
+
+.footer {
+  grid-area: footer;
+  height: 70px;
+  background: #575050;
+  margin-top: 70px;
+}
+
+@media (min-width: 360px) {
+  .header {
+    height: 150px;
+  }
+  .title {
+    line-height: 20px;
+    padding-left: 10px;
+  }
+  .title__name {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  .title__student {
+    font-size: 17px;
+    padding-left: 20px;
+  }
+  #contenedor {
+    width: 100px;
+    height: 100px;
+    left: 39.5%;
+    margin-top: 5%;
+  }
+  .img_yo {
+    top: 200px;
+  }
+  .info {
+    line-height: 20px;
+    left: 20%;
+    margin-top: 10%;
+    top: 300.3px;
+  }
+  .info__name {
+    width: 100%;
+    height: 35.24px;
+    font-size: 17px;
+  }
+  .info__paragraph {
+    width: 70%;
+    height: 203.24px;
+    padding-left: 20px;
+    font-size: 14.5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: justify;
+  }
+  .date {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .leng {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .game {
+    margin: 5px;
+  }
+  .personalInfo {
+    position: absolute;
+    width: 70%;
+    left: 20%;
+    line-height: 36px;
+    top: 580.3px;
+  }
+  .personalInfo__title {
+    font-size: 15px;
+  }
+  .personalInfo__email {
+    font-size: 13px;
+  }
+  .personalInfo__download {
+    width: 30%;
+    height: 30%;
+    font-size: 15px;
+    margin-left: 44%;
+    background-color: #4e4e4e;
+    color: white;
+    border-radius: 15px;
+  }
+  .python__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 900px;
+    width: 40px;
+    height: 40px;
+    left: 15%;
+  }
+  .c_sharp__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 900px;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+  }
+  .java__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 900px;
+    width: 38px;
+    height: 40px;
+    right: 15%;
+  }
+  .css3__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1010px;
+    width: 45px;
+    height: 45px;
+    left: 15%;
+  }
+  .html5__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1013px;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+  }
+  .js__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1010px;
+    width: 40px;
+    height: 40px;
+    right: 15%;
+  }
+  .node__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1140px;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+  }
+  .net__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1140px;
+    width: 40px;
+    height: 40px;
+    left: 15%;
+  }
+  .sql__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1140px;
+    width: 40px;
+    height: 40px;
+    right: 15%;
+  }
+  .copyR__text {
+    position: absolute;
+    font-size: 12px;
+    right: 25%;
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 700px) {
+  .header {
+    width: auto;
+    height: 300px;
+  }
+  .title {
+    line-height: 20px;
+    padding-left: 15px;
+  }
+  .title__name {
+    padding-top: 15px;
+    font-size: 30px;
+  }
+  .title__student {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #contenedor {
+    width: 140px;
+    height: 140px;
+    left: 44%;
+    margin-top: 5%;
+  }
+  .img_yo {
+    top: 315px;
+  }
+  .info {
+    line-height: 20px;
+    left: 20%;
+    margin-top: 10%;
+    top: 450.3px;
+  }
+  .info__name {
+    width: 80%;
+    height: 35.24px;
+    font-size: 20px;
+  }
+  .info__paragraph {
+    width: 70%;
+    height: 203.24px;
+    padding-left: 20px;
+    font-size: 18.5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: justify;
+  }
+  .date {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .leng {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .game {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .personalInfo {
+    position: absolute;
+    width: 70%;
+    left: 20%;
+    line-height: 36px;
+    top: 740.3px;
+  }
+  .personalInfo__title {
+    font-size: 18px;
+  }
+  .personalInfo__email {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .personalInfo__download {
+    width: 30%;
+    height: 30%;
+    font-size: 30px;
+    margin-left: 50%;
+    background-color: #4e4e4e;
+    color: white;
+    border-radius: 15px;
+  }
+  .python__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1050px;
+    width: 40px;
+    height: 40px;
+    left: 15%;
+  }
+  .java__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1050px;
+    width: 38px;
+    height: 40px;
+    right: 15%;
+  }
+  .c_sharp__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1050px;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+  }
+  .css3__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1155px;
+    width: 45px;
+    height: 45px;
+    left: 15%;
+  }
+  .html5__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1157px;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+  }
+  .js__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1155px;
+    width: 40px;
+    height: 40px;
+    right: 15%;
+  }
+  .node__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1290px;
+    width: 40px;
+    height: 40px;
+    left: 45%;
+  }
+  .net__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1290px;
+    width: 40px;
+    height: 40px;
+    left: 15%;
+  }
+  .sql__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1290px;
+    width: 40px;
+    height: 40px;
+    right: 15%;
+  }
+  .copyR__text {
+    position: absolute;
+    font-size: 15px;
+    right: 35%;
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    width: auto;
+    height: 430px;
+  }
+  .title {
+    line-height: 30px;
+    padding-left: 20px;
+  }
+  .title__name {
+    padding-top: 40px;
+    font-size: 40px;
+  }
+  .title__student {
+    font-size: 30px;
+    padding-left: 30px;
+  }
+  #contenedor {
+    width: 190px;
+    height: 190px;
+    left: 12%;
+    margin-top: 25%;
+  }
+  .img_yo {
+    top: 200px;
+  }
+  .info {
+    line-height: 25px;
+    left: 35%;
+    margin-top: 11%;
+    top: 420.3px;
+  }
+  .info__name {
+    width: 100%;
+    height: 35.24px;
+    font-size: 35px;
+  }
+  .info__paragraph {
+    width: 70%;
+    height: 203.24px;
+    padding-left: 20px;
+    font-size: 25.5px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: justify;
+    line-height: 30px;
+  }
+  .date {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .leng {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .game {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  .personalInfo {
+    position: absolute;
+    width: 90%;
+    left: 10%;
+    line-height: 36px;
+    top: 840.3px;
+  }
+  .personalInfo__title {
+    font-size: 30px;
+  }
+  .personalInfo__email {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .personalInfo__download {
+    width: 30%;
+    height: 100px;
+    font-size: 40px;
+    margin-left: 60%;
+    background-color: #4e4e4e;
+    color: white;
+    border-radius: 15px;
+  }
+  .python__img {
+    position: absolute;
+    top: 1150px;
+    width: 70px;
+    height: 70px;
+    left: 15%;
+  }
+  .c_sharp__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1150px;
+    width: 70px;
+    height: 70px;
+    left: 45%;
+  }
+  .java__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1150px;
+    width: 68px;
+    height: 70px;
+    right: 15%;
+  }
+  .css3__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1250px;
+    width: 75px;
+    height: 75px;
+    left: 15%;
+  }
+  .html5__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1253px;
+    width: 65px;
+    height: 65px;
+    left: 45%;
+  }
+  .js__img {
+    position: absolute;
+    margin-top: 6%;
+    top: 1250px;
+    width: 80px;
+    height: 70px;
+    right: 14.5%;
+  }
+  .node__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1390px;
+    width: 70px;
+    height: 70px;
+    left: 45%;
+  }
+  .net__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1390px;
+    width: 80px;
+    height: 70px;
+    left: 15%;
+  }
+  .sql__img {
+    position: absolute;
+    margin-top: 5%;
+    top: 1390px;
+    width: 70px;
+    height: 70px;
+    right: 14.5%;
+  }
+  .copyR__text {
+    position: absolute;
+    font-size: 18px;
+    left: 35%;
+    padding-top: 25px;
+  }
+}
+
+.conteiner {
+  padding: 0px;
+  margin: auto;
+  width: 300px;
+  height: 250px;
+  background-color: #d9e4c5;
+  border: 10px dashed #99eca0;
+}
+
+#player {
+  position: absolute;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
+
+.pointer {
+  background-color: #17201b;
+  height: 50px;
+  width: 300px;
+  color: white;
+  border-bottom: 0px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+/*# sourceMappingURL=main.css.map */

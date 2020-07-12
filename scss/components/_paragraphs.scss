@@ -1,0 +1,60 @@
+.title{
+    color: #CECECE;
+    padding-left: 20px;
+    text-shadow: 3px 3px 3px rgb(170, 132, 86);
+
+    &__name{
+        padding-top: 20px;
+        font-size: 45px;    
+    }
+
+    &__student{ 
+        font-size: 35px;
+        padding-left: 40px;
+    }   
+
+    &__abilities{
+        font-size: 35px;
+        color: black;
+        text-shadow: 3px 3px 3px rgb(82, 73, 73);
+        background-color: #F8F8F8;
+
+        &--game{
+            color: black;
+            left: 60px;
+            font-size: 30px;
+        }
+    }
+}
+
+.info{
+    position: absolute;
+    font-family: Rokkitt;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 34px;
+    left: 390px;
+    top: 550.3px;
+
+    &__name{
+        width: 500px;
+        height: 100.24px;
+        font-size: 40px;    
+    }
+
+    &__paragraph{
+        width: 500px;
+        height: 203.24px;
+        padding-left: 20px;
+        font-size: 30px;     
+        align-items: center;
+        text-align: justify;
+
+    }
+}
+
+.copyR{
+    width: 99%;
+    text-align: center;
+}
+

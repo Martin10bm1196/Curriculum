@@ -1,0 +1,190 @@
+@media(min-width: 700px) {
+
+    .header{
+        width: auto;
+        height: 300px;
+       }
+   
+       .title{
+           line-height: 20px;
+           padding-left: 15px;
+           &__name{
+               padding-top: 15px;
+               font-size: 30px;    
+           }
+       
+           &__student{ 
+               font-size: 20px;
+               padding-left: 10px;
+           }   
+       }
+   
+       #contenedor{
+         width: 140px;
+         height: 140px;
+         left: 44%;
+         margin-top: 5%;
+       }
+   
+       .img_yo{
+           top: 315px;
+       }
+     
+       .info{
+         line-height: 20px;
+         left: 20%;
+         margin-top: 10%;
+         top: 450.3px;
+         &__name{
+             width: 80%;
+             height: 35.24px;
+             font-size: 20px;    
+         }
+         &__paragraph{
+             width: 70%;
+             height: 203.24px;
+             padding-left: 20px;
+             font-size: 18.5px;     
+             align-items: center;
+             text-align: justify;
+         }
+     }
+     
+       .date{
+         margin-left: 20px;
+         margin-right: 20px;
+       }
+     
+       .leng{
+           margin-left: 20px;
+           margin-right: 20px;
+       }
+
+       .game{
+           margin-left: 60px;
+           margin-right: 60px;
+       }
+     
+       .personalInfo{
+         position: absolute;
+         width: 70%;
+         left: 20%;
+         line-height: 36px;
+         top: 740.3px;
+     
+         &__title{
+             font-size: 18px;
+         }
+         &__email{
+             font-size: 18px;
+             margin-left: 10px;
+         }      
+         &__download{
+           width: 30%;
+           height: 30%;
+           font-size: 30px;
+           margin-left: 50%;     
+           background-color: rgb(78, 78, 78);
+           color: white;
+           border-radius: 15px;
+         }
+       } 
+     
+       .python__img{
+           position: absolute;
+           margin-top: 5%;
+           top: 1050px;
+           width: 40px;
+           height: 40px;
+           left: 15%;
+       }
+   
+  
+       .java__img{
+           position: absolute;
+           margin-top: 5%;
+           top: 1050px;
+           width: 38px;
+           height: 40px;
+           right: 15%;
+       }
+
+       .c_sharp__img{
+        position: absolute;
+        margin-top: 5%;
+        top: 1050px;
+        width: 40px;
+        height: 40px;
+        left: 45%;
+    }
+   
+       .css3__img{
+           position: absolute;
+           margin-top: 6%;
+           top: 1155px;
+           width: 45px;
+           height: 45px;
+           left: 15%;
+       }
+   
+       .html5__img{
+           position: absolute;
+           margin-top: 6%;
+           top: 1157px;
+           width: 40px;
+           height: 40px;
+           left: 45%;
+       }
+
+       .js__img{
+        position: absolute;
+        margin-top: 6%;
+        top: 1155px;
+        width: 40px;
+        height: 40px;
+        right: 15%;
+    }
+   
+       .node__img{
+           position: absolute;
+           margin-top: 5%;
+           top: 1290px;
+           width: 40px;
+           height: 40px;
+           left: 45%;
+       }
+   
+      
+   
+       .net__img{
+           position: absolute;
+           margin-top: 5%;
+           top: 1290px;
+           width: 40px;
+           height: 40px;
+           left: 15%;
+       }
+   
+       .sql__img{
+        position: absolute;
+        margin-top: 5%;
+        top: 1290px;
+        width: 40px;
+        height: 40px;
+        right: 15%;
+    }
+
+    .copyR{
+        
+        &__text{
+            position: absolute;
+            font-size: 15px;
+            right: 35%;
+            padding-top: 25px;
+        }
+
+       
+    }
+   
+     
+ }

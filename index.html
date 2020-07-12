@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <script src="https://kit.fontawesome.com/eb50892c1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body >
+
+    <header  id="" class=" img header">
+
+        <div class="title">
+            <h2 class="title__name">Martin Bustamante Morales</h2> 
+            <br>       
+            <h2 class="title__student">Estudiante Informatica Empresarial</h2>
+        </div>
+           
+
+    </header>
+
+    
+        <article class="  date">
+
+            <img id="contenedor" src="img/yo.jpg" alt="foto" class="img_yo">
+
+            <div class="info"> 
+                
+                <h4 class="info__name">Martin Bustamante Morales</h4>
+                
+                <p class="info__paragraph">Estudiante de informática empresarial actualmente cursando el último año 
+                    de la carreara universitaria, conocedor múltiples herramientas, lenguajes de 
+                     programación y preparación en el campo de la tecnología de la información (TI),
+                     gestión de proyectos, análisis, base de datos y programador Full Stack Developer.</p>                          
+            </div>
+
+            <div class="personalInfo">
+                <h3 class="personalInfo__title">Datos Personales:</h3>
+
+                <div class="personalInfo__email">
+                    <label> <i class="fab fa-facebook-square"></i>  Martin Bustamante</label>
+                    <br>          
+                    <label></label><i class="fas fa-envelope"></i>  martin10bm11@gmail.com</label>
+                </div>
+                
+                <a class="personalInfo__download" href="pdf/C_V.pdf" target="_blanck" download="CV Martin Bustamante" style="text-decoration: none;">  <i class="fas fa-download"></i>  Descargar CV  </a>
+            </div>
+
+        </article>
+      
+        
+        <article class=" leng">
+            <div class="title">
+                <label class="title__abilities" for="">Habilidades</label>
+            </div>
+            <div> 
+                <img  src="img/python.png" alt="img" class="python__img">
+                <img  src="img/sql.png" alt="img" class="sql__img">
+                <img  src="img/java.png" alt="img" class="java__img">
+                <img  src="img/css3.png" alt="img" class="css3__img">
+                <img  src="img/html5.png" alt="img" class="html5__img">
+                <img  src="img/js.png" alt="img" class="js__img">
+                <img  src="img/node.png" alt="img" class="node__img">
+                <img  src="img/net.png" alt="img" class="net__img">
+                <img  src="img/c_sharp.png" alt="img" class="c_sharp__img">
+                
+            </div>
+        </article>
+
+        <article class="game">
+            <div class="title">
+                <label class="title__abilities--game" for="">Mini game</label>
+            </div>
+            <div class="conteiner pointer"> 
+                <span id="puntos"></span>
+                <span id="net"></span>
+                <span id="tiempo"></span>
+                
+            </div>
+                <div class="conteiner ">
+                    <div id="player"> 
+                    
+                    </div>
+                </div>
+        </article>
+        
+
+  
+
+    <footer class=" footer">
+        <div class="copyR"> 
+            <label class="copyR__text" for="">&copy Todos los derecho reservados, Martin Bustamante 2020.</label>
+        </div>
+    </footer>
+    
+
+    <script>
+        document.getElementById('player').addEventListener("mouseover", sumarPuntos);
+
+        
+        var tiempo = 30;
+        var puntos = 0;
+        var gana = 30;
+
+        
+        function sumarPuntos(){
+            if(puntos < 1){
+                setInterval(restarTiempo, 1000);
+            }
+            
+            puntos ++;
+            document.getElementById("puntos").innerHTML = "Puntos: <b>" + puntos + "/" + gana + "</b>";
+            randNum = Math.round(Math.random()*250);
+            randNum2 = Math.round(Math.random()*200);
+            document.getElementById("player").style.marginLeft = randNum2 + "px";
+            document.getElementById("player").style.marginTop = randNum + "px";
+            if(puntos == 30){
+                alert("Ganaste");
+                tiempo = 60;
+                puntos = 0; 
+            }
+
+        }
+
+        function restarTiempo(){
+            tiempo--;
+            document.getElementById("tiempo").innerHTML = "&nbsp;&nbsp;Tiempo: "+tiempo;
+
+            if(tiempo == 0){
+                if(puntos == 0){
+                    alert("Ve abajo y disfruta el mini juego");
+                }else{
+                    alert("El tiempo del juego acabo");
+                }
+                
+                tiempo = 60;
+                puntos = 0;
+            }
+        }
+
+        
+        
+    </script>
+</body>
+</html>
